@@ -27,7 +27,7 @@ jobs:
       - name: Generar Javadoc
         run: |
           mkdir -p docs
-          javadoc -d docs src/com/tt1/test/*.java
+         javadoc -d docs src/main/java/com/tt1/test/*.java
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v4
